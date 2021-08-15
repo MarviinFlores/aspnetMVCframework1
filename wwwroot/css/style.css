@@ -152,6 +152,7 @@ ul.nav {
 }
 
 .rslides li {
+	-webkit-transform: rotateX(180deg);
 	-webkit-backface-visibility: hidden;
 	position: absolute;
 	display: none;
@@ -167,7 +168,7 @@ ul.nav {
 }
 
 .rslides img {
-	display: block;
+	/**-display: block;**/
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -937,7 +938,7 @@ ul.simplefilter {
 		display: inline-block;
 		width: 50px;
 		height: 50px;
-		background: url("../images/img-sprite.png") no-repeat 0px 0px;
+		background: url("/images/img-sprite.png") no-repeat 0px 0px;
 		opacity: 0.7;
 	}
 
@@ -1066,7 +1067,7 @@ ul.simplefilter {
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top.png") no-repeat 0px 0px;
+	background: url("images/to-top.png") no-repeat 0px 0px;
 }
 
 /*-- //Go-To-Top-Button --*/
